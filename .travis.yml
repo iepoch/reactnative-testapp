@@ -18,12 +18,5 @@ jobs:
       script:
         - yarn
         - expo build:web
-      deploy:
-        provider: netlify
-        site: $NETLIFY_ID
-        auth: $NETLIFY_AUTH
-        dir: "root"
-        prod: true
-        edge: true
         on:
           branch: main
