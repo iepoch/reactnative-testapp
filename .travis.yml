@@ -22,7 +22,7 @@ jobs:
         provider: netlify
         site: $NETLIFY_ID
         auth: $NETLIFY_AUTH
-        dir: "web-build"
+        dir: "root"
         prod: true
         edge: true
         on:
