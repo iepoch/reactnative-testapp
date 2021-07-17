@@ -25,7 +25,8 @@
     "react-native-windows": "^0.63.0-0"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0"
+    "@babel/core": "^7.9.0",
+    "expo": "~42.0.1"
   },
   "private": true
 }
