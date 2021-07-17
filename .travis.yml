@@ -18,5 +18,9 @@ jobs:
       script:
         - yarn
         - expo build:web
+      deploy:
+        dir: "web-build"
+        prod: true
+        edge: true
         on:
           branch: main
