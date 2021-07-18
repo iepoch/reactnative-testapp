@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Image, StyleSheet, ImageBackground } from "react-native";
 
-export const HomeScreen = () => {
+export const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <View style={styles.carContainer}>
@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     height: "100%",
   },
   titles: {
-    marginTop: "25%",
+    marginTop: "20%",
     width: "100%",
     alignItems: "center",
   },
